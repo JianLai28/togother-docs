@@ -1,5 +1,5 @@
 site_name: Togother Docs
-site_description: 项目文档站点
+site_description: 一起看文档
 site_author: pwxiao
 
 theme:
@@ -35,12 +35,18 @@ markdown_extensions:
       permalink: true
   - admonition
   - pymdownx.details
+  - attr_list
+  - md_in_html
 
 nav:
-  - 首页: about.md
+  - 首页: index.md
   - 下载: download.md
   - 指南: 
     - 快速开始: guide/getting-started.md
+    - 导入视频源: guide/import_source.md
+    - 网盘功能:
+      - 夸克网盘: guide/quark_netdisk.md
+      - WebDAV/Alist: guide/webdav_alist.md
   - 帮助中心:
     - 常见问题: help.md
     - 搜索引擎帮助: search_engine_help.md

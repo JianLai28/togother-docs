@@ -6,13 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="项目文档站点">
+        <meta name="description" content="一起看文档">
       
       
         <meta name="author" content="pwxiao">
       
       
       
+      
+        <link rel="next" href="download/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              欢迎使用 Togother Docs
+              首页
             
           </span>
         </div>
@@ -203,9 +205,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="about/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
         
   
   
@@ -353,10 +357,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   
@@ -367,6 +393,77 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      关于一起看
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="关于一起看">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      核心功能
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      常用链接
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      技术特点
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      联系我们
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -452,6 +549,124 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guide/import_source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    导入视频源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    网盘功能
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            网盘功能
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guide/quark_netdisk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    夸克网盘
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guide/webdav_alist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    WebDAV/Alist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -703,25 +918,49 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      常用命令
+      关于一起看
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="关于一起看">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      核心功能
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      项目结构
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      功能特点
+      常用链接
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      技术特点
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      联系我们
     </span>
   </a>
   
@@ -744,26 +983,38 @@
 
 
 <h1 id="togother-docs">欢迎使用 Togother Docs<a class="headerlink" href="#togother-docs" title="Permanent link">&para;</a></h1>
-<p>这是您项目的文档站点，您可以在这里找到所有相关信息。</p>
-<h2 id="_1">常用命令<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>这是"一起看"应用的官方文档站点，您可以在这里找到所有相关信息。</p>
+<h2 id="_1">关于一起看<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>"一起看"是一款专为异地情侣、家人和朋友设计的同步观影社交平台。无论相隔多远，都能感受到同步观看视频的乐趣。</p>
+<h3 id="_2">核心功能<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <ul>
-<li><code>mkdocs serve</code> - 启动实时重载的文档服务器</li>
-<li><code>mkdocs build</code> - 构建文档站点</li>
-<li><code>mkdocs -h</code> - 打印帮助信息并退出</li>
+<li><strong>视频同步</strong>：实时同步视频播放状态，包括播放、暂停和进度</li>
+<li><strong>实时聊天</strong>：观影过程中可以发送文字、表情等进行交流</li>
+<li><strong>多平台支持</strong>：支持安卓和iOS平台，保证跨平台无缝体验</li>
+<li><strong>自定义搜片引擎</strong>：支持添加<a href="guide/import_source/">自定义视频源</a>，扩展内容资源</li>
+<li><strong>房间管理</strong>：创建私密房间，邀请好友同步观看</li>
+<li><strong>夸克网盘支持</strong>：支持观看夸克网盘资源，并可建立房间与好友一起观看</li>
+<li><strong>WebDAV/Alist协议支持</strong>：可挂载20多种网盘，支持WebDAV/Alist协议，轻松创建房间共同观影</li>
 </ul>
-<h2 id="_2">项目结构<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # 配置文件
-docs/
-    index.md  # 文档首页
-    ...       # 其他 Markdown 页面、图片和其他文件
-</code></pre></div>
-<h2 id="_3">功能特点<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">常用链接<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
-<li>简洁易用的界面</li>
-<li>强大的搜索功能</li>
-<li>响应式设计，适配各种设备</li>
-<li>支持深色模式</li>
-<li>代码高亮显示</li>
+<li><a href="download/">下载应用</a> - 获取最新版本的应用</li>
+<li><a href="guide/getting-started/">快速开始</a> - 了解如何使用应用</li>
+<li><a href="guide/import_source/">导入视频源</a> - 添加自定义视频源</li>
+<li><a href="help/">常见问题</a> - 解决使用中的常见问题</li>
+<li><a href="support/">技术支持</a> - 联系我们获取帮助</li>
+</ul>
+<h2 id="_4">技术特点<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<ul>
+<li>毫秒级同步技术，确保观影体验流畅一致</li>
+<li>低延迟的实时通信系统，使聊天交流更加自然</li>
+<li>高效的资源获取系统，支持多种格式视频直链</li>
+</ul>
+<h2 id="_5">联系我们<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>如果您有任何问题、建议或合作意向，请通过以下方式联系我们：</p>
+<ul>
+<li><strong>电子邮件</strong>：<a href="mailto:3504852205@qq.com">3504852205@qq.com</a></li>
+<li><strong>QQ群</strong>：679961545 </li>
 </ul>
 
 
