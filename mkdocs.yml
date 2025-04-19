@@ -53,5 +53,6 @@ nav:
   - 法律条款:
     - 用户协议: terms.md
     - 隐私政策: privacy.md
+  - 更新历史: changelog.md
   - 支持: support.md
 
