@@ -2,6 +2,13 @@
 
 这是"一起看"应用的官方文档站点，您可以在这里找到所有相关信息。
 
+<div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
+    本站总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
+  </span>
+</div>
+
 ## 关于一起看
 
 "一起看"是一款专为异地情侣、家人和朋友设计的同步观影社交平台。无论相隔多远，都能感受到同步观看视频的乐趣。
@@ -15,7 +22,6 @@
 - **房间管理**：创建私密房间，邀请好友同步观看
 - **夸克网盘支持**：支持观看夸克网盘资源，并可建立房间与好友一起观看
 - **WebDAV/Alist协议支持**：可挂载20多种网盘，支持WebDAV/Alist协议，轻松创建房间共同观影
-
 
 ## 常用链接
 
