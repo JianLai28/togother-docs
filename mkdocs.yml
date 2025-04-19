@@ -1,0 +1,51 @@
+site_name: Togother Docs
+site_description: 项目文档站点
+site_author: pwxiao
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+
+nav:
+  - 首页: about.md
+  - 下载: download.md
+  - 指南: 
+    - 快速开始: guide/getting-started.md
+  - 帮助中心:
+    - 常见问题: help.md
+    - 搜索引擎帮助: search_engine_help.md
+  - 法律条款:
+    - 用户协议: terms.md
+    - 隐私政策: privacy.md
+  - 支持: support.md
+
