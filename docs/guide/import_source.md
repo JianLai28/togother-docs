@@ -1,6 +1,6 @@
 # 导入视频源
 
-"一起看"应用支持添加自定义CMS视频源，本文档提供了一些推荐的视频源配置，您可以直接复制添加到应用中。
+"一起看"应用支持添加CMS视频源，本文档提供了一些推荐的视频源配置，您可以直接复制添加到应用中。
 
 ## 什么是CMS视频源
 
@@ -16,82 +16,25 @@ CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口�
 
 ## 推荐视频源列表
 
-以下是一些经过测试可用的视频源列表，您可以根据需要选择导入：
+以下是一些经过测试可用的视频源列表，您可以根据需要选择
+
+### URL导入:
+
+
+
+### 复制粘贴导入：
 
 ```json
 [
   {
-    "name": "豆瓣",
-    "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
-    "enabled": true,
- 
-    "use_proxy": true
-  },
-  {
-    "name": "B",
-    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
-    "enabled": true,
- 
-    "use_proxy": true
-  },
-  {
-    "name": "量子",
-    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
-    "enabled": true,
- 
-    "use_proxy": true
-  },
-  {
-    "name": "极速",
-    "url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+    "name": "速播",
+    "url": "https://subocaiji.com/api.php/provide/vod/at/json",
     "enabled": true,
     "use_proxy": true
   },
   {
-    "name": "暴风",
-    "url": "https://bfzyapi.com/api.php/provide/vod/",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "量子2",
-    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "最大",
-    "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "非凡",
-    "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/json/",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "360",
-    "url": "https://360zy.com/api.php/provide/vod",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "四圈",
-    "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
-    "name": "ikun",
-    "url": "https://ikunzyapi.com/api.php/provide/vod/",
-    "enabled": true,
-    "use_proxy": false
-  },
-  {
-    "name": "卧龙",
-    "url": "https://collect.wolongzyw.com/api.php/provide/vod/at/json",
+    "name": "无尽",
+    "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
     "enabled": true,
     "use_proxy": true
   },
@@ -102,19 +45,77 @@ CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口�
     "use_proxy": true
   },
   {
-    "name": "无尽",
-    "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
+    "name": "卧龙",
+    "url": "https://collect.wolongzyw.com/api.php/provide/vod/at/json",
     "enabled": true,
     "use_proxy": true
   },
- 
   {
-    "name": "速播",
-    "url": "https://subocaiji.com/api.php/provide/vod/at/json",
+    "name": "ikun",
+    "url": "https://ikunzyapi.com/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": false
+  },
+  {
+    "name": "四圈",
+    "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "360",
+    "url": "https://360zy.com/api.php/provide/vod",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "非凡",
+    "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/json/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "最大",
+    "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "量子2",
+    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "暴风",
+    "url": "https://bfzyapi.com/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "极速",
+    "url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "量子",
+    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "B",
+    "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "豆瓣",
+    "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
     "enabled": true,
     "use_proxy": true
   }
-  
 ]
 ```
 
@@ -127,7 +128,6 @@ CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口�
 | name | 视频源名称，用于在应用中显示 |
 | url | 视频源API地址，必须是有效的苹果CMS API地址 |
 | enabled | 是否启用该视频源，true表示启用，false表示禁用 |
-| preview_count | 预览数量，搜索结果中预览显示的条目数 |
 | use_proxy | 是否使用代理访问，部分资源站需要代理才能正常访问 |
 
 ## 注意事项
