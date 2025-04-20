@@ -21,82 +21,100 @@ CMS视频源是基于苹果CMS（MacCMS）API格式的资源站点，可以通�
 ```json
 [
   {
+    "name": "豆瓣",
+    "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
+    "enabled": true,
+ 
+    "use_proxy": true
+  },
+  {
     "name": "B",
     "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
     "enabled": true,
-    "preview_count": 2,
+ 
     "use_proxy": true
   },
   {
-    "name": "量子资源",
+    "name": "量子",
     "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
     "enabled": true,
-    "preview_count": 2,
+ 
     "use_proxy": true
   },
   {
-    "name": "最大资源",
+    "name": "极速",
+    "url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "暴风",
+    "url": "https://bfzyapi.com/api.php/provide/vod/",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "量子2",
+    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json",
+    "enabled": true,
+    "use_proxy": true
+  },
+  {
+    "name": "最大",
     "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "非凡资源",
+    "name": "非凡",
     "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/json/",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "360资源",
+    "name": "360",
     "url": "https://360zy.com/api.php/provide/vod",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "四圈影视",
+    "name": "四圈",
     "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "ikun资源",
+    "name": "ikun",
     "url": "https://ikunzyapi.com/api.php/provide/vod/",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": false
   },
   {
-    "name": "卧龙资源",
+    "name": "卧龙",
     "url": "https://collect.wolongzyw.com/api.php/provide/vod/at/json",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "天空资源",
+    "name": "天空",
     "url": "http://api.tiankongapi.com/api.php/provide/vod/at/json",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
   {
-    "name": "无尽资源",
+    "name": "无尽",
     "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   },
+ 
   {
-    "name": "速播影视",
+    "name": "速播",
     "url": "https://subocaiji.com/api.php/provide/vod/at/json",
     "enabled": true,
-    "preview_count": 2,
     "use_proxy": true
   }
+  
 ]
 ```
 
