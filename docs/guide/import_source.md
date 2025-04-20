@@ -20,6 +20,7 @@ CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口�
 
 ### URL导入:
 
+https://togother.pwxiao.top/assets/source.json
 
 
 ### 复制粘贴导入：
