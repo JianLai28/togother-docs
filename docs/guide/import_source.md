@@ -144,7 +144,7 @@ CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口�
 <div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <span id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
-    本页总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
+    本站总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
   </span>
 </div>
 
