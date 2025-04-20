@@ -4,7 +4,7 @@
 
 ## 什么是CMS视频源
 
-CMS视频源是基于苹果CMS（MacCMS）API格式的资源站点，可以通过API接口获取视频资源列表和播放地址。添加这些视频源可以丰富您的观影选择。
+CMS视频源是基于苹果CMS API格式的资源站点，可以通过API接口获取视频资源列表和播放地址。添加这些视频源可以丰富您的观影选择。
 
 ## 如何导入视频源
 
@@ -139,3 +139,12 @@ CMS视频源是基于苹果CMS（MacCMS）API格式的资源站点，可以通�
 
 !!! warning "免责声明"
     以上列出的视频源仅作参考，其可用性和内容质量可能随时变化。我们不对这些第三方资源的内容负责，使用时请自行判断内容的合法性和安全性。
+
+
+<div style="text-align: center; padding: 10px; margin: 10px 0; background-color: #f5f5f5; border-radius: 5px;">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv" style="font-size: 14px; color: #666;">
+    本页总访问量 <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #1976D2;"></span> 次
+  </span>
+</div>
+
