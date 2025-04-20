@@ -5,6 +5,9 @@ site_author: pwxiao
 theme:
   name: material
   language: zh
+  font:
+    text: Noto Sans SC
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.top
@@ -13,15 +16,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: white
       toggle:
         icon: material/brightness-7
         name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: white
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
