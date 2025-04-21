@@ -84,12 +84,6 @@
     "use_proxy": true
   },
   {
-    "name": "量子2",
-    "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json",
-    "enabled": true,
-    "use_proxy": true
-  },
-  {
     "name": "暴风",
     "url": "https://bfzyapi.com/api.php/provide/vod/",
     "enabled": true,
