@@ -29,6 +29,12 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
+# 谷歌分析
+extra:
+  analytics:
+    provider: google
+    property: G-VEN5KYD9DP
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
