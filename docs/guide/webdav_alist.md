@@ -2,6 +2,9 @@
 
 "一起看"应用支持通过WebDAV/Alist协议挂载多种网盘，使您能够轻松访问和分享存储在网盘中的视频内容。本指南将帮助您设置和使用这一功能。
 
+!!! note "使用须知"
+    本功能需要一点门槛，需要大家了解alist的使用，alist文档 [https://alist.nn.ci/zh/guide/](https://alist.nn.ci/zh/guide/)
+
 ## 什么是WebDAV/Alist
 
 - **WebDAV**（Web Distributed Authoring and Versioning）是一种基于HTTP的通信协议，允许用户通过网络访问和管理远程服务器上的文件。
@@ -70,6 +73,11 @@
 6. 点击"创建"按钮
 7. 通过生成的房间码邀请好友一起观看
 
+
+
+!!! warning "警告⚠️"
+    alist创建的房间会有时效性，一段时间之后原来的链接就会无法播放，这时候如果想继续观看  请重新创建房间
+    另外 当房间链接失效时 请**删除房间** 避免无效房间堆积
 
 ## 常见问题
 

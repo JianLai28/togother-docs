@@ -6,7 +6,7 @@
 
 支持所有Android设备
 
-[立即下载 v2.1.1](http://oss.ahhl.cn/apps/v2.1.1.apk)
+[立即下载 v2.1.3](http://oss.ahhl.cn/apps/v2.1.3.apk)
 
 ## iOS版本 (App Store) {#ios版本-app-store}
 

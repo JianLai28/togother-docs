@@ -1,6 +1,9 @@
 site_name: Togother Docs
-site_description: 一起看文档
+site_description: 一起看app｜ 使用文档
 site_author: pwxiao
+site_url: https://docs.togother.top
+repo_url: https://github.com/pwxiao/togother-docs
+repo_name: togother-docs
 
 theme:
   name: material
@@ -28,12 +31,18 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
+  icon:
+    repo: fontawesome/brands/github
 
 # 谷歌分析
 extra:
   analytics:
     provider: google
     property: G-VEN5KYD9DP
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pwxiao
+      name: pwxiao on GitHub
 
 markdown_extensions:
   - pymdownx.highlight
@@ -53,7 +62,8 @@ nav:
   - 指南: 
     - 快速开始: guide/getting-started.md
     - 导入视频源: guide/import_source.md
-    - 网盘功能:
+    - 进阶功能:
+      - Emby服务器: guide/emby_guide.md
       - 夸克网盘: guide/quark_netdisk.md
       - WebDAV/Alist: guide/webdav_alist.md
   - 帮助中心:
