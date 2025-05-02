@@ -2,11 +2,18 @@
 
 与亲朋好友实时同步观看电影、电视剧，享受共同观影的乐趣。
 
+
+
+## Windows版本 🆕
+
+[Github下载](https://github.com/pwxiao/togother-docs/releases/tag/update)
+
+
 ## 安卓版本 {#安卓版本}
 
 支持所有Android设备
 
-[立即下载 v2.1.3](http://oss.ahhl.cn/apps/v2.1.3.apk)
+[立即下载 v2.1.7](http://oss.ahhl.cn/apps/v2.1.7.apk)
 
 ## iOS版本 (App Store) {#ios版本-app-store}
 
@@ -19,3 +26,4 @@
 无需美区账号，直接安装测试版
 
 [加入TestFlight测试](https://testflight.apple.com/join/xk6vZNpD) 
+

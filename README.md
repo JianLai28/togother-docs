@@ -37,8 +37,9 @@
 
 - 📱 Android
 - 📱 iOS
+- 🖥️ windows
 - 🖥️ mac（即将上线）
-- 🖥️ windows(即将上线)
+
 
 ## ⚙️ 技术特点
 

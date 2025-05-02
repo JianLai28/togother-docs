@@ -66,6 +66,7 @@ nav:
       - Emby服务器: guide/emby_guide.md
       - 夸克网盘: guide/quark_netdisk.md
       - WebDAV/Alist: guide/webdav_alist.md
+      - 视频解析: guide/video_analyse.md
   - 帮助中心:
     - 常见问题: help.md
     - 搜索引擎帮助: search_engine_help.md
