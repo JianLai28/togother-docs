@@ -7,6 +7,7 @@
 ## Windows版本 🆕
 
 [Github下载](https://github.com/pwxiao/togother-docs/releases/tag/update)
+[123云盘下载](https://www.123684.com/s/5lHyTd-mzRHv)
 
 
 ## 安卓版本 {#安卓版本}
