@@ -4,9 +4,11 @@ site_author: pwxiao
 site_url: https://docs.togother.top
 repo_url: https://github.com/pwxiao/togother-docs
 repo_name: togother-docs
+site_icon: logo.png
 
 theme:
   name: material
+  logo: assets/logo.png
   language: zh
   font:
     text: Noto Sans SC
